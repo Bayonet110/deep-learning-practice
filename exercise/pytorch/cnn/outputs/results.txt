@@ -1,0 +1,35 @@
+Iris CNN classification - four experiments
+Iris: 120 training / 30 test
+VGG here is a 1D VGG-style adaptation, not VGG16.
+
+========== BasicCNN + SGD ==========
+Learning Rate: 0.05
+Epochs: 200
+Train Loss: 0.0513
+Train Accuracy: 99.1667%
+Test Loss: 0.0677
+Test Accuracy: 96.6667%
+
+========== BasicCNN + Adam ==========
+Learning Rate: 0.001
+Epochs: 200
+Train Loss: 0.0972
+Train Accuracy: 97.5000%
+Test Loss: 0.1123
+Test Accuracy: 96.6667%
+
+========== VGG + SGD ==========
+Learning Rate: 0.01
+Epochs: 200
+Train Loss: 0.0970
+Train Accuracy: 95.8333%
+Test Loss: 0.1061
+Test Accuracy: 96.6667%
+
+========== VGG + Adam ==========
+Learning Rate: 0.001
+Epochs: 200
+Train Loss: 0.0008
+Train Accuracy: 100.0000%
+Test Loss: 0.1168
+Test Accuracy: 96.6667%
