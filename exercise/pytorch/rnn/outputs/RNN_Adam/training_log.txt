@@ -1,0 +1,21 @@
+Experiment: RNN_Adam
+Device: cuda
+Train samples: 443259
+Dev samples: 4000
+Test samples: 1000
+Learning rate: 0.001
+Epoch[1/5] Train Loss:0.1315, Train Acc:0.9506 | Dev Loss:0.0836, Dev Acc:0.9720 | Time:141.1s
+  Saved best model at Epoch 1
+Epoch[2/5] Train Loss:0.0752, Train Acc:0.9737 | Dev Loss:0.0771, Dev Acc:0.9730 | Time:113.7s
+  Saved best model at Epoch 2
+Epoch[3/5] Train Loss:0.0633, Train Acc:0.9778 | Dev Loss:0.0843, Dev Acc:0.9705 | Time:158.4s
+Epoch[4/5] Train Loss:0.0559, Train Acc:0.9807 | Dev Loss:0.0767, Dev Acc:0.9740 | Time:158.8s
+  Saved best model at Epoch 4
+Epoch[5/5] Train Loss:0.0501, Train Acc:0.9829 | Dev Loss:0.0745, Dev Acc:0.9722 | Time:145.8s
+  Saved best model at Epoch 5
+
+Best Epoch: 5
+Final Train Loss: 0.0423, Train Acc: 0.9864
+Final Dev Loss: 0.0745, Dev Acc: 0.9722
+Final Test Loss: 0.0843, Test Acc: 0.9700
+Total Time: 787.4s

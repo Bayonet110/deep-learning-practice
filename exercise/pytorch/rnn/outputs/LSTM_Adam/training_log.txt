@@ -1,0 +1,19 @@
+Experiment: LSTM_Adam
+Device: cuda
+Train samples: 443259
+Dev samples: 4000
+Test samples: 1000
+Learning rate: 0.001
+Epoch[1/5] Train Loss:0.1058, Train Acc:0.9595 | Dev Loss:0.0724, Dev Acc:0.9738 | Time:145.0s
+  Saved best model at Epoch 1
+Epoch[2/5] Train Loss:0.0559, Train Acc:0.9800 | Dev Loss:0.0760, Dev Acc:0.9728 | Time:165.9s
+Epoch[3/5] Train Loss:0.0415, Train Acc:0.9855 | Dev Loss:0.0677, Dev Acc:0.9770 | Time:161.3s
+  Saved best model at Epoch 3
+Epoch[4/5] Train Loss:0.0306, Train Acc:0.9894 | Dev Loss:0.0734, Dev Acc:0.9795 | Time:171.4s
+Epoch[5/5] Train Loss:0.0228, Train Acc:0.9922 | Dev Loss:0.0782, Dev Acc:0.9782 | Time:138.1s
+
+Best Epoch: 3
+Final Train Loss: 0.0278, Train Acc: 0.9915
+Final Dev Loss: 0.0677, Dev Acc: 0.9770
+Final Test Loss: 0.0500, Test Acc: 0.9810
+Total Time: 816.9s

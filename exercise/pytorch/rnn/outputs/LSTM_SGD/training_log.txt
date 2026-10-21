@@ -1,0 +1,22 @@
+Experiment: LSTM_SGD
+Device: cuda
+Train samples: 443259
+Dev samples: 4000
+Test samples: 1000
+Learning rate: 0.1
+Epoch[1/5] Train Loss:0.1855, Train Acc:0.9234 | Dev Loss:0.1136, Dev Acc:0.9623 | Time:63.6s
+  Saved best model at Epoch 1
+Epoch[2/5] Train Loss:0.1014, Train Acc:0.9631 | Dev Loss:0.0956, Dev Acc:0.9688 | Time:130.6s
+  Saved best model at Epoch 2
+Epoch[3/5] Train Loss:0.0836, Train Acc:0.9697 | Dev Loss:0.0874, Dev Acc:0.9685 | Time:122.2s
+  Saved best model at Epoch 3
+Epoch[4/5] Train Loss:0.0737, Train Acc:0.9739 | Dev Loss:0.0811, Dev Acc:0.9735 | Time:121.4s
+  Saved best model at Epoch 4
+Epoch[5/5] Train Loss:0.0664, Train Acc:0.9765 | Dev Loss:0.0735, Dev Acc:0.9725 | Time:143.3s
+  Saved best model at Epoch 5
+
+Best Epoch: 5
+Final Train Loss: 0.0568, Train Acc: 0.9803
+Final Dev Loss: 0.0735, Dev Acc: 0.9725
+Final Test Loss: 0.0690, Test Acc: 0.9740
+Total Time: 655.4s

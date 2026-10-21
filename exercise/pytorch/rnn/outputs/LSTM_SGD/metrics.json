@@ -1,0 +1,21 @@
+{
+    "model": "LSTM",
+    "optimizer": "SGD",
+    "learning_rate": 0.1,
+    "epochs": 5,
+    "best_epoch": 5,
+    "train_samples": 443259,
+    "train_loss": 0.056762,
+    "train_acc": 0.980307,
+    "dev_loss": 0.073462,
+    "dev_acc": 0.9725,
+    "test_loss": 0.068984,
+    "test_acc": 0.974,
+    "time_seconds": 655.37,
+    "vocab_size": 9599,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "max_length": 100,
+    "batch_size": 64,
+    "seed": 42
+}

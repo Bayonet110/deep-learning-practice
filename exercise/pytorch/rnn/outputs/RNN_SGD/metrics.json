@@ -1,0 +1,21 @@
+{
+    "model": "RNN",
+    "optimizer": "SGD",
+    "learning_rate": 0.1,
+    "epochs": 5,
+    "best_epoch": 5,
+    "train_samples": 443259,
+    "train_loss": 0.073068,
+    "train_acc": 0.974227,
+    "dev_loss": 0.088053,
+    "dev_acc": 0.96825,
+    "test_loss": 0.111812,
+    "test_acc": 0.956,
+    "time_seconds": 544.75,
+    "vocab_size": 9599,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "max_length": 100,
+    "batch_size": 64,
+    "seed": 42
+}

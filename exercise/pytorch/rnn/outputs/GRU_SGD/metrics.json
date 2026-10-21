@@ -1,0 +1,21 @@
+{
+    "model": "GRU",
+    "optimizer": "SGD",
+    "learning_rate": 0.1,
+    "epochs": 5,
+    "best_epoch": 5,
+    "train_samples": 443259,
+    "train_loss": 0.054201,
+    "train_acc": 0.981137,
+    "dev_loss": 0.078776,
+    "dev_acc": 0.972,
+    "test_loss": 0.081026,
+    "test_acc": 0.97,
+    "time_seconds": 780.89,
+    "vocab_size": 9599,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "max_length": 100,
+    "batch_size": 64,
+    "seed": 42
+}

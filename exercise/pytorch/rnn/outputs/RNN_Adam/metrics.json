@@ -1,0 +1,21 @@
+{
+    "model": "RNN",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "epochs": 5,
+    "best_epoch": 5,
+    "train_samples": 443259,
+    "train_loss": 0.042303,
+    "train_acc": 0.986362,
+    "dev_loss": 0.074505,
+    "dev_acc": 0.97225,
+    "test_loss": 0.084325,
+    "test_acc": 0.97,
+    "time_seconds": 787.43,
+    "vocab_size": 9599,
+    "embedding_dim": 128,
+    "hidden_dim": 128,
+    "max_length": 100,
+    "batch_size": 64,
+    "seed": 42
+}

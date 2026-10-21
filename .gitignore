@@ -25,3 +25,4 @@ ai-services/image-ai-service/models/
 /mini-local/
 /glm-local/
 exercise/.idea/workspace.xml
+*.pt

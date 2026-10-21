@@ -1,0 +1,19 @@
+Experiment: GRU_Adam
+Device: cuda
+Train samples: 443259
+Dev samples: 4000
+Test samples: 1000
+Learning rate: 0.001
+Epoch[1/5] Train Loss:0.1035, Train Acc:0.9599 | Dev Loss:0.0703, Dev Acc:0.9730 | Time:88.7s
+  Saved best model at Epoch 1
+Epoch[2/5] Train Loss:0.0551, Train Acc:0.9804 | Dev Loss:0.0717, Dev Acc:0.9750 | Time:153.4s
+Epoch[3/5] Train Loss:0.0409, Train Acc:0.9856 | Dev Loss:0.0681, Dev Acc:0.9770 | Time:178.2s
+  Saved best model at Epoch 3
+Epoch[4/5] Train Loss:0.0305, Train Acc:0.9894 | Dev Loss:0.0746, Dev Acc:0.9760 | Time:102.9s
+Epoch[5/5] Train Loss:0.0233, Train Acc:0.9921 | Dev Loss:0.0886, Dev Acc:0.9750 | Time:69.7s
+
+Best Epoch: 3
+Final Train Loss: 0.0266, Train Acc: 0.9913
+Final Dev Loss: 0.0681, Dev Acc: 0.9770
+Final Test Loss: 0.0573, Test Acc: 0.9840
+Total Time: 622.3s
