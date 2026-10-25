@@ -26,3 +26,5 @@ ai-services/image-ai-service/models/
 /glm-local/
 exercise/.idea/workspace.xml
 *.pt
+/exercise/awk_shell/data/text8
+/exercise/awk_shell/data/text8_10cols.txt
